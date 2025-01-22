@@ -22,7 +22,7 @@
                  python3 -m venv venv
                  . ./venv/bin/activate
                  pip install black
-                 sh 'black --check app.py'
+                 black --check app.py
                  '''
              }
          }
